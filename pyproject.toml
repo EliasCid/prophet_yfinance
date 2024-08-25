@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "prophet-yfinance"
+version = "0.1.0"
+description = ""
+authors = ["Elías Cid <ecp1594@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.1"
+yfinance = "^0.2.43"
+prophet = "^1.1.5"
+plotly = "^5.23.0"
+numpy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
